@@ -1,0 +1,13 @@
+# Build files
+lib/
+esm/
+
+# Package files
+node_modules/
+npm-debug.log
+coverage/
+.eslintcache
+.jest-cache
+
+# 0S
+.DS_Store

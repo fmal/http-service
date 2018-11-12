@@ -1,0 +1,8 @@
+{
+  "extends": ["fmal", "fmal/import"],
+  "rules": {
+    "no-var": "error",
+    "prefer-const": "error",
+    "object-shorthand": "warn"
+  }
+}
