@@ -7,10 +7,11 @@
   "types": "lib/index.d.ts",
   "sideEffects": false,
   "files": [
-    "lib/",
-    "src/",
-    "esm/",
-    "factories/"
+    "/lib",
+    "/src",
+    "/esm",
+    "/factories",
+    "!**/__tests__"
   ],
   "repository": {
     "type": "git",
