@@ -1,5 +1,9 @@
 # @fmal/http-service
 
+[![npm](https://img.shields.io/npm/v/@fmal/http-service.svg?style=flat-square)](https://www.npmjs.com/package/@fmal/http-service)
+[![Build Status](https://img.shields.io/travis/com/fmal/http-service/master.svg?style=flat-square)](http://travis-ci.com/fmal/http-service)
+[![Coverage](https://img.shields.io/codecov/c/github/fmal/http-service.svg?style=flat-square)](https://codecov.io/gh/fmal/http-service)
+
 A HTTP service - originally `@cerebral/http`
 
 > Migrating from `@cerebral/http`? See the [migration guide](#migrating-from-cerebralhttp) at the bottom of this readme.
