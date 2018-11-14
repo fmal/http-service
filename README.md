@@ -1,8 +1,9 @@
 # @fmal/http-service
 
 [![npm](https://img.shields.io/npm/v/@fmal/http-service.svg?style=flat-square)](https://www.npmjs.com/package/@fmal/http-service)
-[![Build Status](https://img.shields.io/travis/com/fmal/http-service/master.svg?style=flat-square)](http://travis-ci.com/fmal/http-service)
+[![Build Status](https://img.shields.io/travis/fmal/http-service/master.svg?style=flat-square)](http://travis-ci.org/fmal/http-service)
 [![Coverage](https://img.shields.io/codecov/c/github/fmal/http-service.svg?style=flat-square)](https://codecov.io/gh/fmal/http-service)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 
 A HTTP service - originally `@cerebral/http`
 
