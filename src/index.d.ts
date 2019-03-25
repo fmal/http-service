@@ -53,7 +53,7 @@ export interface HttpResponseOptions
   body: string;
 }
 
-export interface HttpRequestReponse<T> {
+export interface HttpRequestResponse<T> {
   result: T;
   status: string;
 }
@@ -64,12 +64,12 @@ export interface HttpService {
     url: string,
     passedQuery?: { [id: string]: any },
     options?: HttpRequestOptions
-  ): Promise<HttpRequestReponse<T>>;
+  ): Promise<HttpRequestResponse<T>>;
   post<T>(
     url: string,
     body: any,
     options?: HttpRequestOptions
-  ): Promise<HttpRequestReponse<T>>;
+  ): Promise<HttpRequestResponse<T>>;
   put<T>(
     url: string,
     body: any,
@@ -79,12 +79,12 @@ export interface HttpService {
     url: string,
     body: any,
     options?: HttpRequestOptions
-  ): Promise<HttpRequestReponse<T>>;
+  ): Promise<HttpRequestResponse<T>>;
   delete<T>(
     url: string,
     passedQuery: { [id: string]: any },
     options?: HttpRequestOptions
-  ): Promise<HttpRequestReponse<T>>;
+  ): Promise<HttpRequestResponse<T>>;
   uploadFile<T>(
     url: string,
     files: FileList | File,
